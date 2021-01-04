@@ -1,4 +1,15 @@
 $(document).ready(function() {
+    let timeEl = $('<p>');
+    let dayEl = $('<p>');
+    let box1 = $('#div1');
+    let box2 = $('#div2');
+    let box3 = $('#div3');
+    let box4 = $('#div4');
+    let box5 = $('#div5');
+    let box12 = $('#div12');
+    let box11 = $('#div11');
+    let box10 = $('#div10');
+    let box9 = $('#div9');
 
 
 button9.on('click', function() {
