@@ -1,3 +1,6 @@
+$(document).ready(function() {
+
+
 button9.on('click', function() {
     event.preventDefault();
     if (box9.val() !== '') {
@@ -52,3 +55,4 @@ button5.on('click', function() {
         localStorage.setItem('Entry5', box5.val());
     }
 });
+}
